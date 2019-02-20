@@ -13,7 +13,7 @@ class CardInfo(object):
     def get_mask(self) -> list:
         return [
             self.data[6] & 255, self.data[2] & 255, self.data[1] & 255,
-            self.data[6] & 255
+            self.data[5] & 255
         ]
 
     def get_timestamp(self) -> datetime:
