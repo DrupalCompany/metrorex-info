@@ -1,5 +1,5 @@
 # Metrorex Info
-Display information for metrorex "Transport public integrat" cards.
+Display information about metrorex "Transport public integrat" cards.
 
 ## Command line options ##
 ```
