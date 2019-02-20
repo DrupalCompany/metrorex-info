@@ -10,9 +10,6 @@ class CardInfo(object):
 
         self.mask = self.get_mask()
 
-    def hex2bytes(self, data: list) -> bytes:
-        return bytes.fromhex("".join(data))
-
     def get_mask(self) -> list:
         return [
             self.data[6] & 255, self.data[2] & 255, self.data[1] & 255,
